@@ -1,0 +1,16 @@
+@import 'normalize';
+@import url(//db.onlinewebfonts.com/c/0d49fc455f4a8951a42daf952412a713?family=Helvetica+Neue);
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2eb738;
+}
+@import './component/symbol';
+@import './component/container';
+@import './component/header';
+@import './component/content';
+@import './component/footer';

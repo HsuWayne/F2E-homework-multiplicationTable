@@ -1,0 +1,16 @@
+.container {
+  width: 1280px;
+  height: 1372px;
+  margin: auto;
+  padding: 80px 85px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid #d9d9d9;
+  background-color: #f0f0f0;
+  .box {
+    width: 350px;
+    height: 366px;
+  }
+}

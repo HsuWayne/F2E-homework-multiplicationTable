@@ -1,0 +1,20 @@
+.symbol-x {
+  &::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    height: 8px;
+    border: 0.5px solid #2eb738;
+    transform: translateY(-50%) rotate(45deg);
+    top: 50%;
+  }
+  &::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    height: 8px;
+    border: 0.5px solid #2eb738;
+    transform: translateY(-50%) rotate(-45deg);
+    top: 50%;
+  }
+}

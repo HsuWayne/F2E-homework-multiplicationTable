@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  .header-line {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 5px;
+    .line {
+      height: 0px;
+      width: 280px;
+      margin-left: 21px;
+      margin-right: 21px;
+      border-top: 1px solid #2eb738;
+    }
+  }
+  h1 {
+    font-family: 'PingFangTC-Medium', sans-serif;
+    font-size: 56px;
+    margin: unset;
+    padding: unset;
+  }
+  p {
+    margin: unset;
+    padding: unset;
+  }
+}
